@@ -8,6 +8,6 @@ module.exports = {
   pgHost: process.env.ENV_VAR_POSTGRES_HOST || 'db',
   pgPort: process.env.ENV_VAR_POSTGRES_PORT || '5432',
   pgDatabase: process.env.ENV_VAR_POSTGRES_DATABASE || 'postgres',
-  pgUser: process.env.ENV_VAR_POSTGRES_USER || 'postgres_user',
-  pgPassword: process.env.ENV_VAR_POSTGRES_PASSWORD || 'postgres_password'
+  pgUser: process.env.ENV_VAR_POSTGRES_USER || 'postgres',
+  pgPassword: process.env.ENV_VAR_POSTGRES_PASSWORD || 'postgres'
 };
